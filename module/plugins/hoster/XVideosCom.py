@@ -12,7 +12,7 @@ class XVideosCom(Hoster):
     __version__ = "0.17"
     __status__ = "testing"
 
-    __pattern__ = r'https?://(?:www\.)?xvideos\.com/video(\d+)'
+    __pattern__ = r'https?://(?:\w+\.)?xvideos\.com/video(\d+)'
     __config__ = [("activated", "bool", "Activated", True)]
 
     __description__ = """XVideos.com hoster plugin"""
